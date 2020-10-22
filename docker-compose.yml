@@ -3,8 +3,6 @@ version: '3'
 services:
   webapp:
     build: ./webapp
-    volumes:
-      - ./webapp/src:/var/www/html
     ports:
       - 4000:80
 
