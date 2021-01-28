@@ -26,11 +26,11 @@ Database Admin - 4600
 
 ```shell
 # Go to Server Status's Docker Version's Directory
-cd SkyMakeDocker
+cd server-status-docker
 # Make sure you can see the docker-compose file
 # Compose the docker install
 docker-compose up
 # Don't forget to CHANGE the MYSQL Password inside docker-compose.yml file
 ```
 
-#### Based on Skyfallen SkyMake Container Architecture
+###### Based on Skyfallen SkyMake Container Architecture
